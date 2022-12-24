@@ -1,0 +1,148 @@
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{hyperref}
+\usepackage{makecell}
+\usepackage{blindtext}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{listings}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=red,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+
+\setlength{\topmargin}{-.5in} \setlength{\textheight}{9.25in}
+\setlength{\oddsidemargin}{0in} \setlength{\textwidth}{6.8in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{pythonhighlight}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{mycounter} % create a new counter, called 'mycounter'
+% default def'n of '\themycounter' is '\arabic{mycounter}'
+%% command to increment 'mycounter' by 1 and to display its value:
+\newcommand\showmycounter{\stepcounter{mycounter}\themycounter}
+\usepackage{lipsum}
+\newcommand\showlips{\stepcounter{mycounter}\lipsum[\value{mycounter}]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{framed}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\LARGE BÀI BÁO CÁO}
+\author{Applying Deep Learning for Breast Cancer Detection in Radiology}
+\date{March 2023}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\bfseries AI VIETNAM}
+\rhead{\bfseries aivietnam.edu.vn}
+
+
+\begin{enumerate}
+    \item 
+    \textbf{Purpose/outputs}
+    \begin{itemize}
+        \item \blindtext[0]
+    \end{itemize}
+    
+    
+    \item
+    \textbf{Tools:}
+    \begin{itemize}
+        \item W
+    \end{itemize}
+
+    
+    
+    
+    
+    
+    
+    
+    
+\end{enumerate}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+
+\section*{Introduction}
+
+Let's begin with a formula $e^{i\pi} + 1 = 0$. But we can also do
+\begin{itemize}
+
+    \item But we can also do:
+$$e = \lim_{n\to\infty}\left(1 + \frac{1}{n}\right)^n =  \lim_{n\to\infty}\frac{n}{\sqrt[n]{n!}}$$
+
+    \item We can do another:
+$$e = \sum_{n=0}^{\infty} \frac{1}{n!}$$
+
+    \item We can also use continued fractions:
+$$e = 2 + \frac{1}{1 + \frac{1}{2 + \frac{2}{3 + \frac{3}{4 +\ddots}}}}$$
+
+
+\end{itemize}
+
+\section*{More Formulas}
+$$\int_a^b f(x)dx$$
+$$\int\int\int \texttt{f(x,y,z)dxdydz}$$
+
+$$\vec{v}= <v_1, v_2. v_3> $$
+
+$$\vec{v}\cdot \vec{w}$$
+
+$$
+\begin{bmatrix}
+
+1 &2 &3\\
+4 &5 &6\\
+\end{bmatrix}
+$$
+
+\begin{center}
+\includegraphics{a}
+\end{center}
+
+\end{document}
+
+
